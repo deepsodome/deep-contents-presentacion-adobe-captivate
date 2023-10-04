@@ -1,0 +1,43 @@
+.carousel-horizontal-ul li{
+	display: inline;
+	padding-right: 8px;
+    white-space: nowrap;
+	margin:0;
+	border:rgba(255,255,255,1.00)
+	
+	 -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.carousel-thumbs-img{
+	border:2px solid rgba(111,109,109,0.5);
+}
+
+.carousel-thumbs-img:hover{
+	border:2px solid rgba(7,112,253,1.00)
+}
+
+.carousel-thumbs-img-selected{
+	border:2px solid rgba(245,210,29,1.00)
+}
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}

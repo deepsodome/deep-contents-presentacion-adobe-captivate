@@ -1,0 +1,11 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../../assets/js/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><body>
+      <link rel="stylesheet" type="text/css" href="css/jquery.desoslide.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <div id="carousel" style="width:780px; height:478px; left:0px; top:0px; position:absolute; outline:none;" unselectable="on" class="unselectable">
+      <canvas id="carouselCanvas" width=780; height=478 style="position:absolute;"></canvas>
+      <div id="carouselContent" style="position:absolute; top:18px; left:62px; width:622px; height:350px; overflow:hidden; outline:none" unselectable="on" class="unselectable"></div>
+      <div id="carouselThumbs" class="carousel-horizontal-ul" style="position:absolute; width:760px; height:70px; top:380px; left:10px; outline:none; overflow:hidden" unselectable="on"></div>
+      </div>
+      <canvas id="carouselPlayPause" width=26; height=26 style="position:absolute; left:668px; top:27px;"></canvas>
+      </body><script type="text/javascript" src="libs/jquery-1.11.3.min.js"></script><script type="text/javascript" src="libs/jquery.desoslide.js"></script><script type="text/javascript" src="libs/easeljs-0.7.1.min.js"></script><script type="text/javascript" src="libs/tweenjs-0.5.1.min.js"></script><script type="text/javascript" src="libs/movieclip-0.7.1.min.js"></script><script type="text/javascript" src="libs/preloadjs-0.4.1.min.js"></script><script type="text/javascript" src="libs/jqbrowser-compressed.js"></script><script type="text/javascript" src="js/carousel.js"></script><script type="text/javascript" src="js/carousel_use.js"></script></BODY></HTML>
