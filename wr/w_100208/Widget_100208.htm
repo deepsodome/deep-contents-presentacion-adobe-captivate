@@ -1,0 +1,50 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../../assets/js/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><html>
+      <head>
+      <script src="easeljs-0.5.0.min.js"></script>
+      <script src="tweenjs-0.3.0.min.js"></script>
+      <script src="movieclip-0.5.0.min.js"></script>
+      
+      
+      </head>
+      <body>
+      <textarea id="gamedesc" rows="8" cols="37" readonly style="resize: none; border: none;position:absolute; display:none; overflow:auto; align-content:center; font-stretch:normal; font-size:14px"></textarea>
+      
+      <textarea id="questiontitle" rows="4" cols="70" readonly style="resize: none; border: none;position:absolute;display:none;cursor: default; overflow:auto; width:725px; height:95px "></textarea>
+      
+      <div id="h1" style="outline-style:none;cursor:pointer;border-radius:5px; position:absolute;background-color:#050505;opacity:0.3; visibility:hidden;"></div>
+      <div id="h2" style="outline-style:none;cursor:pointer;border-radius:5px; position:absolute;background-color:#050505;opacity:0.3; visibility:hidden;"></div>
+      <div id="h3" style="outline-style:none;cursor:pointer;border-radius:5px; position:absolute;background-color:#050505;opacity:0.3; visibility:hidden;"></div>
+      <div id="h4" style="outline-style:none;cursor:pointer;border-radius:5px; position:absolute;background-color:#050505;opacity:0.3; visibility:hidden;"></div>
+      <div id="h5" style="outline-style:none;cursor:pointer;border-radius:5px; position:absolute;background-color:#050505;opacity:0.3; visibility:hidden;"></div>
+      <div id="h6" style="outline-style:none;cursor:pointer;border-radius:5px; position:absolute;background-color:#050505;opacity:0.3; visibility:hidden;"></div>
+      
+      <textarea id="1" rows="2" cols="70" readonly style="resize: none;border: none;background:none;position:absolute;display:none;cursor: pointer;outline-color:transparent;overflow:auto" ></textarea>
+      <textarea id="2" rows="2" cols="70" readonly style="resize: none;border: none;background:none;position:absolute;display:none;cursor: pointer;outline-color:transparent;overflow:auto" ></textarea>
+      <textarea id="3" rows="2" cols="70" readonly style="resize: none;border: none;background:none;position:absolute;display:none;cursor: pointer;outline-color:transparent;overflow:auto" ></textarea>
+      <textarea id="4" rows="2" cols="70" readonly style="resize: none;border: none;background:none;position:absolute;display:none;cursor: pointer;outline-color:transparent;overflow:auto" ></textarea>
+      <textarea id="5" rows="2" cols="70" readonly style="resize: none;border: none;background:none;position:absolute;display:none;cursor: pointer;outline-color:transparent;overflow:auto" ></textarea>
+      <textarea id="6" rows="2" cols="70" readonly style="resize: none;border: none;background:none;position:absolute;display:none;cursor: pointer;outline-color:transparent;overflow:auto" ></textarea>
+      <form>
+      <div id="checkboxes" style=" position:absolute;display:none; left:0px; top:0px ">
+      <input type="checkbox" id="c1" style=" position:absolute;cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="checkbox" id="c2" style=" position:absolute;cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="checkbox" id="c3" style=" position:absolute;cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="checkbox" id="c4" style=" position:absolute;cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="checkbox" id="c5" style=" position:absolute;cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="checkbox" id="c6" style=" position:absolute;cursor: pointer; width:15px; height:15px; left:0px; top:0px">
+      </div>
+      
+      <div id="radiobuttons" style=" position:absolute;display:none; left:0px; top:0px">
+      <input type="radio" name='choices' id="r1" style=" position:absolute; cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="radio" name='choices' id="r2" style=" position:absolute; cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="radio" name='choices' id="r3" style=" position:absolute; cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="radio" name='choices' id="r4" style=" position:absolute; cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="radio" name='choices' id="r5" style=" position:absolute; cursor: pointer; width:15px; height:15px; left:0px; top:0px"><br><br>
+      <input type="radio" name='choices' id="r6" style=" position:absolute; cursor: pointer; width:15px; height:15px; left:0px; top:0px">
+      </div>
+      </form>
+      <canvas id="canvas" style="position:absolute; left:0px; top:0px;"></canvas>
+      <canvas id="canvas1" style="position:absolute; left:0px; top:0px;"></canvas>
+      
+      </body>
+      </html><script type="text/javascript" src="easeljs-0.5.0.min.js"></script><script type="text/javascript" src="tweenjs-0.3.0.min.js"></script><script type="text/javascript" src="movieclip-0.5.0.min.js"></script><script type="text/javascript" src="resource_use.js"></script><script type="text/javascript" src="jeopardyhtml.js"></script><script type="text/javascript" src="feedback.js"></script></BODY></HTML>

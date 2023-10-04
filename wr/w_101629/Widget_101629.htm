@@ -1,0 +1,20 @@
+<!DOCTYPE HTML><HTML><HEAD><TITLE>Adobe Captivate Widget</TITLE><META NAME="generator" content="Adobe Captivate 6"></META><script type="text/javascript" src="../../assets/js/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../../assets/js/OpenAjaxManagedHub-all.js"></script><script type="text/javascript">function init(){	hubClient = new OpenAjax.hub.IframeHubClient({HubClient: {onSecurityAlert: function() {}		   }	});	hubClient.connect(function() {		var id = hubClient.getClientID();		hubClient.publish(id+"_loaded","loaded");	});}function deInit() { if(hubClient) { 	hubClient.disconnect(); } } jQuery(document).ready(function() {	init();});</script></HEAD><BODY><body>
+      <div contentEditable=false id="gamedesc" rows="4" cols="40" readonly style="resize: none; border: none;position:absolute; display:none; font-family:Tahoma; letter-spacing:1px; font-size:12px;"></div>
+      <div contentEditable=false id="crctanstext" rows="4" cols="40" readonly style="resize: none; border: none;position:absolute; display:none; font-family:Tahoma;"></div>
+       <div contentEditable=false id="wrnganstext" rows="4" cols="40" readonly style="resize: none; border: none;position:absolute; display:none; font-family:Tahoma;"></div>
+       <div contentEditable=false id="hinttext" rows="4" cols="40" readonly style="resize: none; border: none;position:absolute; display:none; font-family:Tahoma;font-size:12px"></div>
+      <button id="crctokbtn" style="resize: none; position:absolute; font-family:Tahoma;">OK</button>
+      <button id="wrngokbtn" style="resize: none; position:absolute;font-family:Tahoma;">OK</button>
+      <button id="yesbtn" style="resize: none; position:absolute; font-family:Tahoma;">Yes</button>
+      <button id="nobtn" style="resize: none; position:absolute; font-family:Tahoma;">No</button>
+       <div contentEditable=false id="timertext" rows="4" cols="40" readonly style="resize: none; border: none;position:absolute; display:none; font-size:20px; font-weight:600; font-family:Tahoma;"></div>
+      
+       <div contentEditable=false id="questiontext" rows="4" cols="70" readonly style="resize: none; border: none;position:absolute;display:none;cursor: default;font-family:Tahoma; font-size:15px"></div>
+       <div contentEditable=false id="opt1" spry:default="1" rows="4" cols="70" readonly style="resize: none; border: none;position:absolute;display:none;cursor: default;font-family:Tahoma; font-size:12px"></div>
+       <div contentEditable=false id="opt2" spry:default="2" rows="4" cols="70" readonly style="resize: none; border: none;position:absolute;display:none;cursor: default;font-family:Tahoma; font-size:12px"></div>
+       <div contentEditable=false id="opt3" spry:default="3" rows="4" cols="70" readonly style="resize: none; border: none;position:absolute;display:none;cursor: default;font-family:Tahoma; font-size:12px"></div>
+       <div contentEditable=false id="opt4" spry:default="4" rows="4" cols="70" readonly style="resize: none; border: none;position:absolute;display:none;cursor: default;font-family:Tahoma; font-size:12px"></div>
+	  
+      <canvas id="feedbackcanvas" style="position:absolute; left:0px; top:0px"></canvas>
+      <canvas id="gamecanvas" style="position:absolute; left:0px; top:0px"></canvas>
+      </body><script type="text/javascript" src="js/easeljs-0.5.0.min.js"></script><script type="text/javascript" src="js/tweenjs-0.3.0.min.js"></script><script type="text/javascript" src="js/movieclip-0.5.0.min.js"></script><script type="text/javascript" src="js/jqbrowser-compressed.js"></script><script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script><script type="text/javascript" src="js/MillionaireGame.js"></script><script type="text/javascript" src="js/MillionaireFeedback.js"></script><script type="text/javascript" src="js/disableTextSelect.js"></script><script type="text/javascript" src="js/resource_use.js"></script></BODY></HTML>
